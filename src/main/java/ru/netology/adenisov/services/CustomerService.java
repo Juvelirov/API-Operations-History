@@ -11,10 +11,7 @@ import java.util.List;
 @Component
 @RequiredArgsConstructor
 public class CustomerService {
-    //GET /customers
-    //GET /customers/{id}
-    //POST /customers
-    //DELETE /customers/{id}
+    
     private final List<Client> storage = new ArrayList<>();
 
     public void addCustomer(int id, String name) {
